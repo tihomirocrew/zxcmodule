@@ -7,6 +7,8 @@ https://github.com/D3D9C/sublime-x64
 
 ## Code example
 ```
+require("zxcmodule")
+
 // ConVar manipulation
 ded.ConVarSetFlags( "mat_fullbright", 0 )
 
