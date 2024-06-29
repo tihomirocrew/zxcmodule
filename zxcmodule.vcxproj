@@ -163,12 +163,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(ProjectDir)3rd;$(IncludePath)</IncludePath>
     <TargetName>gmcl_zxcmodule_win64</TargetName>
-    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\Intermedia</IntDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\Intermedia\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(ProjectDir)3rd;$(IncludePath)</IncludePath>
     <TargetName>gmcl_zxcmodule_win64</TargetName>
-    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\Intermedia</IntDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\Intermedia\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
