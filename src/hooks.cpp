@@ -28,6 +28,9 @@
 #include <intrin.h>
 #pragma intrinsic(_ReturnAddress)
 
+class CStudioHdr;
+class matrix3x4_t;
+
 struct OutCommand {
 	bool is_outgoing;
 	bool is_used;

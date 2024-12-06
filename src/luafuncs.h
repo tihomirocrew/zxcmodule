@@ -1,6 +1,5 @@
 #pragma once
 
-#include "patternscan.h"
 #include "cutlvector.h"
 
 class lua_library_func_t {

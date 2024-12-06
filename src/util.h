@@ -25,11 +25,3 @@ static void* getAbsAddr(std::uintptr_t inst, std::uintptr_t instOffset = 3, std:
 
 	return reinterpret_cast<void*>(rip + static_cast<std::uintptr_t>(offset));
 } 
-
-#define MAX_CMD_BUFFER 4000
-
-#define NUM_NEW_COMMAND_BITS		4
-#define MAX_NEW_COMMANDS			((1 << NUM_NEW_COMMAND_BITS) - 1)
-
-#define NUM_BACKUP_COMMAND_BITS		3
-#define MAX_BACKUP_COMMANDS			((1 << NUM_BACKUP_COMMAND_BITS) - 1)

@@ -1,5 +1,13 @@
 #pragma once
 
+#define MAX_CMD_BUFFER 4000
+
+#define NUM_NEW_COMMAND_BITS		4
+#define MAX_NEW_COMMANDS			((1 << NUM_NEW_COMMAND_BITS) - 1)
+
+#define NUM_BACKUP_COMMAND_BITS		3
+#define MAX_BACKUP_COMMANDS			((1 << NUM_BACKUP_COMMAND_BITS) - 1)
+
 enum class EntityFlags {
 	ONGROUND = (1 << 0),
 	DUCKING = (1 << 1),
