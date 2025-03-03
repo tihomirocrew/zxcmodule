@@ -74,7 +74,7 @@ class CBaseAnimating : public CBaseEntity {
 public:
 	VPROXY(SetupBones, 16, bool, (matrix3x4_t* pBoneToWorldOut, int nMaxBones, int boneMask), pBoneToWorldOut, nMaxBones, boneMask);
 
-	OFFSETVAR(CBasePlayerAnimState*, GetAnimState, 0x3620);
+	OFFSETVAR(CBasePlayerAnimState*, GetAnimState, 0x3648);
 	NETVAR(bool, DT_BaseAnimating, m_bClientSideAnimation);
 	NETVAR(float, DT_BaseAnimating, m_flModelScale);
 };
