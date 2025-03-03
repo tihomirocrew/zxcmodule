@@ -1,16 +1,13 @@
-# About
-Cheat module for Garry's Mod (x64, Client-state)
-Author: https://github.com/D3D9C
+### About
+Binary module for Garry's Mod (x64, Client-state)  
+Developer: [serejaga](https://github.com/serejaga)
 
-New module, now works in Menu-state!
-https://github.com/D3D9C/sublime-x64
-
-## Code example
+### Lua code example
 ```
 require("zxcmodule")
 
 // ConVar manipulation
-ded.ConVarSetFlags( "mat_fullbright", 0 )
+ded.ConVarSetFlags("mat_fullbright", 0)
 
 // Disable interp
 ded.SetInterpolation(false)
